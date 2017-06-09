@@ -1,0 +1,28 @@
+<section class="nav nav-pills menu-background">
+<div class="col-md-2 col-md-offset-1 prom_columns">
+    <h6>Илья Горожанкин</h6>
+    <a class="menu-block-textsize">Посмотреть вознаграждения</a><br>
+
+    <a [routerLink]="['/regedit']" class="menu-block-textsize">Редактировать профиль</a><br>
+
+    <a class="menu-block-textsize">Изменить пароль</a><br>
+</div>
+<div class="col-md-3 col-md-offset-1 prom_columns">
+    <h6>Заявления</h6>
+    <a class="menu-block-textsize">На изменение личных данных</a><br>
+    <a class="menu-block-textsize">На расторжение договора</a><br>
+</div>
+<div class="col-md-3 ">
+    <h6>Ваш куратор</h6>
+    <p class="menu-block-textsize">{{curator.name}}</p>
+    <p class="menu-block-textsize">{{curator.number}}</p>
+    <p class="menu-block-textsize">{{curator.email}}</p>
+</div>
+<div class="col-md-2 ">
+    <h6>Ваш дистанционный менеджер</h6>
+    <p class="menu-block-textsize">{{manager.name}}</p>
+    <p class="menu-block-textsize">{{manager.number}}</p>
+    <p class="menu-block-textsize">{{manager.email}}</p>
+</div>
+
+</section>

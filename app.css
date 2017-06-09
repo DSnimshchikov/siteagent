@@ -1,0 +1,133 @@
+﻿a {
+    cursor: pointer;
+}
+.bodyr{
+    background: #faf8fa;
+}
+.help-block {
+    font-size: 10px;
+    padding: 5px;
+}
+
+.padding5{
+    padding: 5%;
+    background-color: #fff;
+
+}
+
+.roboto12
+{
+    font-size: 12px;
+    font-family: Roboto;
+}
+
+.roboto10
+{
+    font-size: 10px;
+    font-family: Roboto;
+}
+
+.color-grey
+{
+    background-color: #f9f7f9;
+}
+
+
+.help-block-green{
+    font-size: 10px;
+    color:green;
+}
+.menu-block-textsize12 {
+
+    font-size: 12px;
+    font-family: Roboto;
+}
+
+.menu-block-textsizezir {
+
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+.main-text{
+    padding-right: 20%;
+    font-size: 13px;
+
+    font-family: Roboto;
+}
+
+.main-text1{
+    background-color: #fff;
+    background: #fff;
+    padding: 5%;
+}
+.main-text2{
+    background-color: #fff;
+    padding: 5%;
+}
+
+
+.menu-block-textsize {
+
+    font-size: 13px;
+
+    font-family: Roboto;
+}
+.menu-background{
+    background: #2b3141;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.padding20
+{
+    margin-top: -2%;
+
+}
+
+.nav1-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+}
+.nav1-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+
+    border-radius: 4px 4px 0 0;
+}
+.nav1-tabs > li > a:hover {
+    border-color: #eee #eee #ddd;
+}
+.nav1-tabs > li.active > a,
+.nav1-tabs > li.active > a:hover,
+.nav1-tabs > li.active > a:focus {
+    color: red;
+    cursor: default;
+    background-color: #3f4555;
+    outline: none; /* Убираем границу вокруг ссылок  */
+
+    border-bottom-color:red;
+    border-bottom: 1px solid red;
+
+    /*border-bottom-color: transparent;*/
+}
+.nav1-tabs.nav1-justified {
+    width: 100%;
+    border-bottom: 0;
+}
+.nav1-tabs.nav1-justified > li {
+    float: none;
+}
+.nav1-tabs.nav1-justified > li > a {
+    margin-bottom: 5px;
+    text-align: center;
+}
+.nav1-tabs.nav1-justified > .dropdown .dropdown-menu {
+    top: auto;
+    left: auto;
+}
+
+.prom_columns{
+    line-height:30px;
+}
